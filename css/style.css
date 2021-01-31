@@ -166,3 +166,94 @@ section {
     transition: .5s ease;
     opacity: .3;
 }
+
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media li {
+    list-style: none;
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.media li i {
+    opacity: .7;
+    transform: scale(.7);
+}
+
+.media li i:hover {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title h2 {
+    position: relative;
+    font-size: 1.8em;
+    letter-spacing: 1px;
+}
+
+.title h2::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 60px;
+    height: 4px;
+    background: #000;
+}
+
+.title p {
+    max-width: 700px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.title.white h2, .title.white p {
+    color: #fff;
+}
+
+.title.white h2::before {
+    background: #fff;
+}
+
+.about {
+    background: #000;
+}
+
+.about .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about .content .textBox {
+    min-width: 49%;
+    width: 49%;
+}
+
+.about .content .textBox p {
+    color: #fff;
+}
+
+.about .content .imgBox {
+    margin-left: 40px;
+}
+
+.about .content .imgBox img {
+    max-width: 100%;
+}
+
+.projects .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

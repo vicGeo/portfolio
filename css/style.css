@@ -65,3 +65,104 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+section {
+    padding: 100px;
+    min-height: 100vh;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+.imgSidebar{
+    margin: 1rem;
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+
+.banner .imgSidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 100px;
+}
+
+.img-fluid.home {
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.banner .contentBox, .sidebar {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: calc(100% - 500px);
+    height: 100%;
+
+}
+
+.intro {
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+    margin-left: 6rem;
+}
+
+.intro a{
+    margin-top: 2rem;
+}
+
+.logoText {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    font-size: 1.2rem;
+}
+
+.sidebar {
+    position: fixed;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px;
+    right:  -100%;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+
+.sidebar ul li a:hover{
+    text-decoration: none;
+    transform: translateX(5px);
+    transition: .5s ease;
+    opacity: .3;
+}

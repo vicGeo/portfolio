@@ -327,3 +327,13 @@ section {
         display: none;
     }
 }
+
+@media screen and (max-width: 438px) {
+    .contentBox {
+        margin-top: -3rem;
+    }
+
+    .logoText {
+        margin-top: 3rem;
+    }
+}

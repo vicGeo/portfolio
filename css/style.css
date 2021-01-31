@@ -321,3 +321,9 @@ section {
         margin-top: 3rem;
     }
 }
+
+@media screen and (max-width: 315px) {
+    .contentBox .intro .btn{
+        display: none;
+    }
+}

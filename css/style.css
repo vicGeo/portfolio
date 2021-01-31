@@ -312,7 +312,7 @@ section {
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
     .contentBox {
         margin-top: -3rem;
     }

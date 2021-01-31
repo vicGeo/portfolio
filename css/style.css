@@ -310,5 +310,14 @@ section {
     .about .content .imgBox {
         margin-left: 0;
     }
+}
 
+@media screen and (max-width: 360px) {
+    .contentBox {
+        margin-top: -3rem;
+    }
+
+    .logoText {
+        margin-top: 3rem;
+    }
 }
